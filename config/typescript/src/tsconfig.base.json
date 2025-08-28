@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "baseUrl": ".",
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+    "declaration": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "exactOptionalPropertyTypes": true,
+    "esModuleInterop": false,
+    "sourceMap": true,
+    "declarationMap": true,
+    "noImplicitReturns": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": false,
+    "noFallthroughCasesInSwitch": true,
+    "noEmitOnError": false,
+    "noErrorTruncation": true,
+    "allowJs": false,
+    "checkJs": false,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noUncheckedIndexedAccess": true,
+    "strictNullChecks": true,
+    "incremental": true,
+    "removeComments": false,
+    "plugins": [
+      {
+        "name": "@effect/language-service",
+        "transform": "@effect/language-service/transform"
+      }
+    ]
+  }
+}

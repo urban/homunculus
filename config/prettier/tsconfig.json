@@ -1,0 +1,7 @@
+{
+  "extends": "@config/typescript",
+  "compilerOptions": {
+    "composite": true,
+  },
+  "include": ["src/**/*"],
+}

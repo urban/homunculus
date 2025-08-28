@@ -1,0 +1,22 @@
+{
+  "name": "@config/prettier",
+  "version": "0.0.0",
+  "type": "module",
+  "exports": {
+    ".": "./src/prettier.config.ts"
+  },
+  "scripts": {
+    "lint": "eslint src --fix",
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "prettier": "catalog:"
+  },
+  "devDependencies": {
+    "@config/eslint": "workspace:*",
+    "@config/typescript": "workspace:*",
+    "eslint": "catalog:",
+    "prettier": "catalog:",
+    "typescript": "catalog:"
+  }
+}

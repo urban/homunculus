@@ -1,0 +1,17 @@
+packages:
+  - config/*
+  - packages/*
+
+catalog:
+  "@effect/ai": 0.26.0
+  "@effect/cli": 0.69.2
+  "@effect/platform": 0.90.6
+  "@effect/platform-node": 0.96.0
+  "@effect/vitest": 0.25.1
+  effect: 3.17.9
+  eslint: 9.34.0
+  prettier: 3.4.2
+  tsup: 8.5.0
+  tsx: 4.20.5
+  typescript: ^5.8.2
+  vitest: 3.2.4

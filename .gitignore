@@ -1,0 +1,60 @@
+# macOS
+.DS_Store
+
+# IDEs & editors
+.idea/
+.vscode/
+*.swp
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+
+# Environment files
+.env
+.env.*
+
+# Node dependencies
+node_modules/
+
+# pnpm specific
+.pnpm/
+.pnp
+.pnp.js
+
+# Yarn (in case it slips in)
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+.yarn/releases/
+
+# Build outputs
+build/
+dist/
+out/
+**/build/
+**/dist/
+**/out/
+
+# Coverage
+coverage/
+.nyc_output/
+
+# TypeScript
+*.tsbuildinfo
+
+# Turborepo cache
+a.turbo/
+.turbo/
+
+# Misc
+.eslintcache 

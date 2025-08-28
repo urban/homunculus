@@ -1,0 +1,43 @@
+{
+  "name": "@packages/agent",
+  "version": "0.0.0",
+  "type": "module",
+  "description": "The Homunculus agent",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js"
+    }
+  },
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsup",
+    "dev": "dotenv -e ../../.env.development.local -- tsup --watch",
+    "lint": "eslint src --fix",
+    "format": "prettier --write src",
+    "test": "vitest run --passWithNoTests",
+    "typecheck": "tsc -b tsconfig.json"
+  },
+  "dependencies": {
+    "@effect/ai": "catalog:",
+    "@effect/ai-anthropic": "0.16.0",
+    "@effect/cli": "catalog:",
+    "@effect/platform": "catalog:",
+    "@effect/platform-node": "catalog:",
+    "effect": "catalog:"
+  },
+  "devDependencies": {
+    "@config/eslint": "workspace:*",
+    "@config/prettier": "workspace:*",
+    "@config/typescript": "workspace:*",
+    "@effect/vitest": "catalog:",
+    "@types/node": "24.3.0",
+    "dotenv-cli": "10.0.0",
+    "eslint": "catalog:",
+    "eslint-plugin-local-rules": "3.0.2",
+    "prettier": "catalog:",
+    "tsup": "catalog:",
+    "tsx": "catalog:",
+    "typescript": "catalog:",
+    "vitest": "catalog:"
+  }
+}

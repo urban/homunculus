@@ -1,4 +1,9 @@
-# Monorepo Overview
+
+# Homunculus Monorepo
+
+This is a monorepo for AI experiments.
+
+## Overview
 
 This is a TypeScript monorepo using pnpm workspaces, turbo for build orchestration and tsup for building.
 
